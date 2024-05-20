@@ -37,6 +37,15 @@ This Fiji (ImageJ) macro script is designed for automated detection and analysis
   <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/1882307d-c1f7-4871-a5eb-b3c939fc69a9" alt="script-editor-gui" style="width: 75%;">
 </p>
 
+### Optional GUI version:
+   - This version is a one-stop shop to collect all the run parameters, and then the script runs without further dialog pop-ups.
+
+<p align="center">
+  <img src="https://github.com/Daniel-Waiger/automated-spheroid-detection-and-live-dead-ratio-analysis/assets/55537771/9a87feaf-b42f-4bd2-b359-a8d72530e131" alt="GUI version" style="width: 75%;">
+</p>
+
+
+
 ## Notes
 
 - **Adjust Calibration:** Modify `pixelWidth` and `pixelHeight` values to match your microscope's calibration.
