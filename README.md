@@ -36,3 +36,9 @@ This Fiji (ImageJ) macro script is designed for automated detection and analysis
 <p align="center">
   <img src="https://github.com/Daniel-Waiger/Ice-Crystal-Morphometry/assets/55537771/1882307d-c1f7-4871-a5eb-b3c939fc69a9" alt="script-editor-gui" style="width: 75%;">
 </p>
+
+## Notes
+
+- **Adjust Calibration:** Modify `pixelWidth` and `pixelHeight` values to match your microscope's calibration.
+- **Cellpose Parameters:** Customize the parameters in the `Cellpose Advanced` function to suit your specific sample type and detection requirements.
+- **Output:** Ensure the directory has write permissions to save results correctly.
