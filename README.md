@@ -1,12 +1,19 @@
 # automated-spheroid-detection-and-live-dead-ratio-analysis
 Automated Fiji macro for spheroid detection and live/dead ratio analysis in merged tif images, utilizing Cellpose segmentation with optional GPU support.
+**Example - From Left to Right: Raw → 8-bit Gray (after conversion from composite to RGB) → Cellpose Label Image.**
+
+<div style="display: flex; justify-content: center;">
+  <img src="https://github.com/Daniel-Waiger/automated-spheroid-detection/assets/55537771/f814c448-3f04-4691-aef1-e13ec4f4caf2" alt="raw-spheroid-image" style="width: 30%; vertical-align: top;" />
+  <img src="https://github.com/Daniel-Waiger/automated-spheroid-detection/assets/55537771/a9703b31-aab7-448b-94f9-2cce2254ae27" alt="gray-spheroid-image" style="width: 30%; vertical-align: top;" />
+  <img src="https://github.com/Daniel-Waiger/automated-spheroid-detection/assets/55537771/a21816ce-5e76-484c-8394-99b564b19451" alt="cellpose-spheroid-image" style="width: 30%; vertical-align: top;" />
+</div>
 
 # Automated Spheroid Detection and Live/Dead Ratio Analysis
 
 This Fiji (ImageJ) macro script is designed for automated detection and analysis of spheroids in merged TIF images. The script performs the following tasks:
 1. Prompts the user to select a directory containing the merged image files.
 2. Processes each image in the selected directory.
-3. Applies image processing techniques to detect spheroids and measure fluorescence in red and green channels.
+3. Applies image processing steps to detect spheroids and measure fluorescence in red and green channels.
 4. Uses Cellpose for spheroid detection with optional GPU support.
 5. Calculates the live/dead ratios and saves results as CSV files.
 
